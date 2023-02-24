@@ -6,7 +6,8 @@ var employeeSchema = new Schema({
   lastName: String,
   email: String,
   status: String,
-  employeeNumber: String
+  employeeNumber: String,
+  createdAt: String
 }, { collection: 'employees' })
 var employeeData = mongoose.model('employees', employeeSchema)
 
